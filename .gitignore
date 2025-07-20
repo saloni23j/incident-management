@@ -1,0 +1,15 @@
+# Golang
+/backend/bin/
+/backend/*.exe
+/backend/*.out
+
+# Node/React
+/frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
