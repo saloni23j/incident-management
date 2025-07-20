@@ -28,6 +28,16 @@ A simple incident management system with AI-powered severity and category classi
    go run main.go
    ```
 
+## 🛠️ Setup Instructions
+
+### 🔧 Backend (Go)
+
+1. **Clone and install dependencies**
+   ```bash
+   git clone https://github.com/your-username/incident-management.git
+   cd incident-management
+   go mod tidy
+
 ## API Usage
 
 ### Create Incident (POST /api/v1/incidents)
@@ -268,3 +278,14 @@ The API provides detailed error responses:
 All error responses include:
 - `error`: Human-readable error message
 - `details`: Detailed error information (validation errors or technical details) 
+
+
+
+
+LOGGING and PROMPT ENGINEERING
+
+Asked AI to integrate with OPEN AI API and accepted the changes
+Asked AI to setup the DB layer and it gave the suggestions for various calls, removed the extra code and used only POST AND GET
+Asked AI to help with go-playground validations, used it as and asked AI to not create different structs for the same thing
+Utilized AI to cover the test cases in both backend and frontend
+Utilized AI for writing frontend code and for CSS
